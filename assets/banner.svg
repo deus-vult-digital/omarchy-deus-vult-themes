@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560">
+<!-- Made with deusvult-site brand/banner/make-banner.py. Render with the JetBrainsMono Nerd Font installed:
+     rsvg-convert banner.svg | magick - -strip banner.png -->
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#0b1a10"/><stop offset="0.6" stop-color="#050b07"/><stop offset="1" stop-color="#010201"/></radialGradient>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity="0.28"/></pattern>
+<filter id="glow" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="560" fill="url(#bg)"/>
+<text x="64" y="64" font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono NF, monospace" font-size="20" fill="#22c55e" opacity="0.6" filter="url(#soft)">guest@deusvult:~$ <tspan fill="#22c55e" opacity="1">omarchy theme set deus-vult-green-screen</tspan><tspan dx="10" opacity="1">█</tspan></text>
+<g font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono NF, monospace" font-size="30.7" fill="#22c55e" filter="url(#glow)" xml:space="preserve">
+<text x="137.0" y="140.9" textLength="1326.0" lengthAdjust="spacingAndGlyphs">██████╗ ███████╗██╗   ██╗███████╗    ██╗   ██╗██╗   ██╗██╗     ████████╗</text>
+<text x="137.0" y="186.8" textLength="1326.0" lengthAdjust="spacingAndGlyphs">██╔══██╗██╔════╝██║   ██║██╔════╝    ██║   ██║██║   ██║██║     ╚══██╔══╝</text>
+<text x="137.0" y="223.6" textLength="1326.0" lengthAdjust="spacingAndGlyphs">██║  ██║█████╗  ██║   ██║███████╗    ██║   ██║██║   ██║██║        ██║   </text>
+<text x="137.0" y="260.4" textLength="1326.0" lengthAdjust="spacingAndGlyphs">██║  ██║██╔══╝  ██║   ██║╚════██║    ╚██╗ ██╔╝██║   ██║██║        ██║   </text>
+<text x="137.0" y="297.2" textLength="1326.0" lengthAdjust="spacingAndGlyphs">██████╔╝███████╗╚██████╔╝███████║     ╚████╔╝ ╚██████╔╝███████╗   ██║   </text>
+<text x="137.0" y="334.1" textLength="1326.0" lengthAdjust="spacingAndGlyphs">╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝      ╚═══╝   ╚═════╝ ╚══════╝   ╚═╝   </text>
+</g>
+<text x="800.0" y="421" text-anchor="middle" font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono NF, monospace" font-size="22" letter-spacing="7" fill="#22c55e" opacity="0.85" filter="url(#soft)">FOUR PHOSPHOR THEMES FOR OMARCHY</text>
+<g fill="#22c55e" filter="url(#soft)">
+<rect x="80" y="444" width="4" height="4"/>
+<rect x="84" y="444" width="4" height="4"/>
+<rect x="88" y="444" width="4" height="4"/>
+<rect x="92" y="444" width="4" height="4"/>
+<rect x="96" y="444" width="4" height="4"/>
+<rect x="72" y="448" width="4" height="4"/>
+<rect x="88" y="448" width="4" height="4"/>
+<rect x="104" y="448" width="4" height="4"/>
+<rect x="68" y="452" width="4" height="4"/>
+<rect x="72" y="452" width="4" height="4"/>
+<rect x="76" y="452" width="4" height="4"/>
+<rect x="88" y="452" width="4" height="4"/>
+<rect x="100" y="452" width="4" height="4"/>
+<rect x="104" y="452" width="4" height="4"/>
+<rect x="108" y="452" width="4" height="4"/>
+<rect x="72" y="456" width="4" height="4"/>
+<rect x="88" y="456" width="4" height="4"/>
+<rect x="104" y="456" width="4" height="4"/>
+<rect x="64" y="460" width="4" height="4"/>
+<rect x="88" y="460" width="4" height="4"/>
+<rect x="112" y="460" width="4" height="4"/>
+<rect x="64" y="464" width="4" height="4"/>
+<rect x="88" y="464" width="4" height="4"/>
+<rect x="112" y="464" width="4" height="4"/>
+<rect x="64" y="468" width="4" height="4"/>
+<rect x="68" y="468" width="4" height="4"/>
+<rect x="72" y="468" width="4" height="4"/>
+<rect x="76" y="468" width="4" height="4"/>
+<rect x="80" y="468" width="4" height="4"/>
+<rect x="84" y="468" width="4" height="4"/>
+<rect x="88" y="468" width="4" height="4"/>
+<rect x="92" y="468" width="4" height="4"/>
+<rect x="96" y="468" width="4" height="4"/>
+<rect x="100" y="468" width="4" height="4"/>
+<rect x="104" y="468" width="4" height="4"/>
+<rect x="108" y="468" width="4" height="4"/>
+<rect x="112" y="468" width="4" height="4"/>
+<rect x="64" y="472" width="4" height="4"/>
+<rect x="88" y="472" width="4" height="4"/>
+<rect x="112" y="472" width="4" height="4"/>
+<rect x="64" y="476" width="4" height="4"/>
+<rect x="88" y="476" width="4" height="4"/>
+<rect x="112" y="476" width="4" height="4"/>
+<rect x="72" y="480" width="4" height="4"/>
+<rect x="88" y="480" width="4" height="4"/>
+<rect x="104" y="480" width="4" height="4"/>
+<rect x="68" y="484" width="4" height="4"/>
+<rect x="72" y="484" width="4" height="4"/>
+<rect x="76" y="484" width="4" height="4"/>
+<rect x="88" y="484" width="4" height="4"/>
+<rect x="100" y="484" width="4" height="4"/>
+<rect x="104" y="484" width="4" height="4"/>
+<rect x="108" y="484" width="4" height="4"/>
+<rect x="72" y="488" width="4" height="4"/>
+<rect x="88" y="488" width="4" height="4"/>
+<rect x="104" y="488" width="4" height="4"/>
+<rect x="80" y="492" width="4" height="4"/>
+<rect x="84" y="492" width="4" height="4"/>
+<rect x="88" y="492" width="4" height="4"/>
+<rect x="92" y="492" width="4" height="4"/>
+<rect x="96" y="492" width="4" height="4"/>
+</g>
+<text x="134" y="466" font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono NF, monospace" font-size="17" letter-spacing="4" fill="#22c55e" filter="url(#soft)">DEUS VULT DIGITAL</text>
+<text x="134" y="490" font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono NF, monospace" font-size="13" letter-spacing="3" fill="#22c55e" opacity="0.55">EVERY SQUARE PIXEL</text>
+<text x="1536" y="490" text-anchor="end" font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono NF, monospace" font-size="13" letter-spacing="3" fill="#22c55e" opacity="0.55">OMARCHY 4.5 · THEMES · MIT</text>
+<rect width="1600" height="560" fill="url(#scan)"/>
+</svg>

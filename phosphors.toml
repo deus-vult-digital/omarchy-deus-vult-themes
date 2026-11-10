@@ -1,0 +1,87 @@
+# The Deus Vult phosphors, after deusvult.digital (deusvult-site
+# packages/crt/src/global.css). tools/build.py makes one Omarchy theme of each:
+# its colors.toml, btop.theme, icons.theme, art, previews and README.
+#
+# Per phosphor:
+#   name      display name; the slug is deus-vult-<table key>
+#   code      phosphor type, as the site's `phosphor` command names it
+#   ansi      the terminal colour nearest the phosphor (fastfetch, prompt)
+#   icons     Yaru tint
+#   ramp      the site's --crt-50 .. --crt-500: bright, primary (accent),
+#             body, muted, dim, darkest (selection)
+#   light     foreground, one step paler than ramp[0]
+#   pale      light_foreground, and the flash of a pixel being drawn
+#   palest    bright_foreground
+#   muted     comments and hints: the hue, greyed
+#   field     the CRT field, dark to darkest at the edges: lighter_background,
+#             background, dark_background, darker_background
+
+# The ANSI colours every phosphor shares, so errors, warnings and diffs read
+# the same in all four. Each is 7:1 or better on every background below.
+[ansi]
+red = "#f87171"
+yellow = "#fbbf24"
+orange = "#fb923c"
+green = "#22c55e"
+cyan = "#2dd4bf"
+blue = "#60a5fa"
+magenta = "#c084fc"
+brown = "#b45309"
+bright_red = "#fca5a5"
+bright_yellow = "#fde68a"
+bright_green = "#4ade80"
+bright_cyan = "#5eead4"
+bright_blue = "#93c5fd"
+bright_magenta = "#d8b4fe"
+
+[phosphor.green-screen]
+name = "Green Screen"
+code = "P1"
+colour = "green"
+ansi = "green"
+icons = "Yaru-olive"
+ramp = ["#4ade80", "#22c55e", "#16a34a", "#15803d", "#166534", "#14532d"]
+light = "#86efac"
+pale = "#bbf7d0"
+palest = "#dcfce7"
+muted = "#3f6b4e"
+field = ["#0b1a10", "#050b07", "#030704", "#010201"]
+
+[phosphor.amber-monochrome]
+name = "Amber Monochrome"
+code = "P3"
+colour = "amber"
+ansi = "yellow"
+icons = "Yaru-yellow"
+ramp = ["#fbbf24", "#f59e0b", "#d97706", "#b45309", "#92400e", "#78350f"]
+light = "#fcd34d"
+pale = "#fde68a"
+palest = "#fef3c7"
+muted = "#746144"
+field = ["#1a1208", "#0b0803", "#070502", "#020100"]
+
+[phosphor.paper-white]
+name = "Paper White"
+code = "P4"
+colour = "white"
+ansi = "white"
+icons = "Yaru-sage"
+ramp = ["#e5e7eb", "#d1d5db", "#9ca3af", "#6b7280", "#4b5563", "#374151"]
+light = "#f3f4f6"
+pale = "#f9fafb"
+palest = "#ffffff"
+muted = "#5c6370"
+field = ["#14161a", "#08090b", "#050607", "#010102"]
+
+[phosphor.blue-phosphor]
+name = "Blue Phosphor"
+code = "P11"
+colour = "blue"
+ansi = "blue"
+icons = "Yaru-blue"
+ramp = ["#93c5fd", "#60a5fa", "#3b82f6", "#2563eb", "#1d4ed8", "#1e40af"]
+light = "#bfdbfe"
+pale = "#dbeafe"
+palest = "#eff6ff"
+muted = "#4f6387"
+field = ["#0b1428", "#050912", "#03060c", "#010103"]
